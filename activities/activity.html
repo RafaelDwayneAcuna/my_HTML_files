@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Practice Activity</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    .container {
+      width: 420px;
+      margin: 50px auto;
+      background: white;
+      border: 1px solid #aaa;
+      padding: 15px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th {
+      background: #cfc9ff;
+      border: 1px solid #aaa;
+      padding: 5px;
+    }
+
+    td {
+      border: 1px solid #aaa;
+      padding: 6px;
+      vertical-align: top;
+    }
+
+    textarea {
+      width: 100%;
+      height: 80px;
+      resize: none;
+    }
+
+    input[type="text"], select {
+      width: 100%;
+    }
+
+    .submit-btn {
+      margin-top: 10px;
+      width: 100%;
+      padding: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Practice Activity</h2>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Value</th>
+      </tr>
+
+      <tr>
+        <td>Name</td>
+        <td><input type="text"></td>
+      </tr>
+
+      <tr>
+        <td>Sex</td>
+        <td>
+          <label><input type="radio" name="sex"> Male</label><br>
+          <label><input type="radio" name="sex"> Female</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Eye color</td>
+        <td>
+          <select>
+            <option>green</option>
+            <option>brown</option>
+            <option>blue</option>
+            <option>black</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Check all that apply</td>
+        <td>
+          <label><input type="checkbox"> Over 6 feet tall</label><br>
+          <label><input type="checkbox"> Over 200 pounds</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Describe your athletic ability:</td>
+        <td><textarea></textarea></td>
+      </tr>
+    </table>
+
+    <button class="submit-btn">Enter my information</button>
+  </div>
+
+</body>
+</html>
